@@ -1,0 +1,11 @@
+s = "hello world"
+
+print("Reversed:", s[::-1])
+print("Count of 'l':", s.count('l'))
+print("Replace 'l' with 'x':", s.replace('l', 'x'))
+
+Output:
+
+Reversed: dlrow olleh
+Count of 'l': 3
+Replace 'l' with 'x': hexxo worxd
