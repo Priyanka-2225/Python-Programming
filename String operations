@@ -1,0 +1,7 @@
+s = "Hello World"
+print("Reversed string:", s[::-1])
+
+
+Output:
+
+Reversed string: dlroW olleH
