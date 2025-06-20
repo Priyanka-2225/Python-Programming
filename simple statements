@@ -1,0 +1,20 @@
+# Exchange values of two variables
+a, b = 5, 10
+a, b = b, a
+print("Swapped:", a, b)
+
+# Circulate values of n variables (right rotate list by one)
+values = [1, 2, 3, 4, 5]
+values = [values[-1]] + values[:-1]
+print("Circulated list:", values)
+
+# Distance between two points
+import math
+x1, y1 = 0, 0
+x2, y2 = 3, 4
+dist = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+print("Distance:", dist)
+
+Swapped: 10 5
+Circulated list: [5, 1, 2, 3, 4]
+Distance: 5.0
